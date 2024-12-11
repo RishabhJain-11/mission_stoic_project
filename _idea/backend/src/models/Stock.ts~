@@ -1,0 +1,11 @@
+import {Schema, model, Document} from "mongoose";
+
+interface IStock extends Document {
+    ticker: string;
+    name: string;
+    sector?: string;
+    industry?: string;
+    price?: number;
+}
+
+const stock
