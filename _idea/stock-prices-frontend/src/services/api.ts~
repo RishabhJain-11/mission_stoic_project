@@ -6,7 +6,4 @@ export const fetchStockList = async() => {
     return response.data;
 }
 
-export const fetchStockDetails = async(ticker: string) => {
-    const response = await axios.get(`{APP_BASE_URL}/stocks/${ticker}`);
-    return response.data;
-}
+export const 
